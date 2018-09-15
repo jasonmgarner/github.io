@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude vs X</title>
+  <title>Latitude vs Weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
@@ -46,66 +46,39 @@
     </div>
     
   </nav>
-
   <div class="container">
-      <article class="description-content row">
-          <div class="col-xs-12">
-            <h1 class="description-header">Comparisons</h1>
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Cloudiness</h1>
             <hr class="description-hr"/>
-            <p class="description-text">Click any plot to get an in-depth analysis.</p>
-          </div>
+            <a href="Visualizations/City Latitude vs Cloudiness.png"><img src="Visualizations/City Latitude vs Cloudiness.png" alt="" class="img-responsive"/>
+            <p>Cloudiness and Latitude did not appear to have a correlation or relationship.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
 
-    <div class="row">
-
-        <div class="col-md-6 pad top"> <br>
-
-          <div class="pull-left">
-            <h3>Latitude vs. Max Temperature</h3>
-            <a target="_blank" href="max_temperature.html"><img src="Visualizations/City Latitude vs Max Temp.png" alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
-          </div>
+       
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Visualizations</h2>
+              <hr />
+              <div id="images">
+                  <a href="max_temperature.html"><img src="Visualizations/City Latitude vs Max Temp.png"  alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                  <a href="humidity.html"><img src="Visualizations/City Latitude vs Humidity.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                  <a href="cloudiness.html"><img src="Visualizations/City Latitude vs Cloudiness.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                  <a href="wind_speed.html"><img src="Visualizations/City Latitude vs Wind Speed.png"  alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+              </div>
+            </div>
+          </section>
+         
 
         </div>
-
-        <div class="col-md-6 pad top"> <br>
-
-          <div class="pull-left">
-            <h3>Latitude vs. Humidity</h3>
-            <a target="_blank" href="humidity.html"><img src="Visualizations/City Latitude vs Humidity.png" alt="Latitude vs. Humidity" width="100%" height="100%"></a>
-          </div>
-
-        </div>
-
+      </section>
     </div>
-
-    <div class="row">
-
-        <div class="col-md-6 pad top"> <br>
-
-          <div class="pull-left">
-            <h3>Latitude vs. Cloudiness</h3>
-            <a target="_blank" href="cloudiness.html"><img src="Visualizations/City Latitude vs Cloudiness.png" alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
-          </div>
-
-        </div>
-
-        <div class="col-md-6 pad top"> <br>
-
-          <div class="pull-left">
-            <h3>Latitude vs. Wind Speed</h3>
-            <a target="_blank" href="wind_speed.html"><img src="Visualizations/City Latitude vs Wind Speed.png" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
-          </div>
-
-        </div>
-
-    </div>
-
-
-
-
+  
+    </body>
+  
     
-
-  </div>
-
-  </body>
-
-  </html>
+  
+    </html>
